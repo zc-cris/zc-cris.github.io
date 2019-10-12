@@ -59,7 +59,9 @@
 <meta property="og:image" content="https://zc-cris.github.io/archives/118474ee/1570872497627.png">
 <meta property="og:image" content="https://zc-cris.github.io/archives/118474ee/1570872635710.png">
 <meta property="og:image" content="https://zc-cris.github.io/archives/118474ee/1570874902926.png">
-<meta property="og:updated_time" content="2019-10-12T10:10:15.025Z">
+<meta property="og:image" content="https://zc-cris.github.io/archives/118474ee/1570876450330.png">
+<meta property="og:image" content="https://zc-cris.github.io/archives/118474ee/1570876503233.png">
+<meta property="og:updated_time" content="2019-10-12T10:36:25.430Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Deepin 搭建博客全记录">
 <meta name="twitter:description" content="这应该是网上可以搜索到的最全的在 Deepin 下搭建博客的教程了～">
@@ -236,7 +238,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">4.9k字</span>
+        <span class="post-count">5k字</span>
       </span>
     </span>
 
@@ -539,7 +541,7 @@
 <h3 id="6-6-写博客的步骤总结"><a href="#6-6-写博客的步骤总结" class="headerlink" title="6.6 写博客的步骤总结"></a>6.6 写博客的步骤总结</h3><ol>
 <li>在 <code>blog</code> 目录下执行<code>hexo n &quot;myBlog&quot;</code>，在 <code>source/_post</code> 文件夹下生成一个 <code>myBlog.md</code>的文件以及同名文件夹</li>
 <li>使用 <code>Typora</code> 编辑<code>myBlog.md</code>，书写自己的博客内容，如果有图片直接插入即可（<code>Typora</code> 会将图片复制到同名文件夹下面），写完之后建议导出为 <code>PDF</code> 做个备份</li>
-<li>执行 <code>hexo g</code>生成静态页面；执行 <code>hexo s</code> 启动本地服务器预览效果（可以直接 <code>hexo s -g</code>）；执行 <code>hexo d</code> 将文章部署到<code>GitHub</code>实现真正的网络博客；如果修改了配置文件，记得执行 6.5 小节的命令哦～</li>
+<li>执行 <code>hexo g</code>生成静态页面；执行 <code>hexo s</code> 启动本地服务器预览效果（可以直接 <code>hexo s -g</code>）；执行 <code>hexo d</code> 将文章部署到<code>GitHub</code>实现真正的网络博客，如果 <code>hexo d</code> 不起作用那么就先执行一遍 <code>hexo clean</code>；如果修改了配置文件，记得执行 6.5 小节的命令哦～</li>
 </ol>
 <p>不需要图床，简单方便，还可以使用 <code>Typora</code> 这么好用的 <code>Markdown</code> 工具，几个命令发布博客，几个命令随时保存博客配置文件，还有比这更爽的事吗？(<em>^__^</em>) 嘻嘻……</p>
 <h2 id="7-yilia-主题优化（持续更新）"><a href="#7-yilia-主题优化（持续更新）" class="headerlink" title="7. yilia 主题优化（持续更新）"></a>7. yilia 主题优化（持续更新）</h2><h3 id="7-1-显示博客前几行"><a href="#7-1-显示博客前几行" class="headerlink" title="7.1 显示博客前几行"></a>7.1 显示博客前几行</h3><p>默认情况下，博客主页的博客会全部显示完，而实际上我们的主页只需要显示每篇博客的前几行即可，在你写 <code>md</code> 文章的时候，可以在内容中加上 <code>&lt;!--more--&gt;</code>，这样首页和列表页展示的文章内容就是 <code>&lt;!--more--&gt;</code> 之前的文字，而之后的内容就不会在首页显示了</p>
@@ -581,6 +583,15 @@
 <img src="/archives/118474ee/1570874902926.png" alt="1570874902926" style="zoom:67%;">
 
 <p>默认为1即可，那么我们每次新建的博客都会置顶</p>
+<h3 id="7-5-添加打赏二维码"><a href="#7-5-添加打赏二维码" class="headerlink" title="7.5 添加打赏二维码"></a>7.5 添加打赏二维码</h3><p>可以通过支付宝和微信的收款二维码，来为自己的劳动成果收费 O(∩_∩)O</p>
+<p>客官老爷行行好，赏小爷一杯咖啡喝喝吧 ╮(╯▽╰)╭</p>
+<p>直接在 <code>yilia</code> 主题下的 <code>_config.yml</code> 文件修改</p>
+<img src="/archives/118474ee/1570876450330.png" alt="1570876450330" style="zoom:50%;">
+
+<p>红圈改为自己的支付账号二维码即可～</p>
+<p>显示效果如下：</p>
+<img src="/archives/118474ee/1570876503233.png" alt="1570876503233" style="zoom:50%;">
+
 
       
         
@@ -615,9 +626,19 @@
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>看官大人行行好，请小爷喝杯咖啡吧 (*^__^*)<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/wxpay.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
                     
                   </div>
                 </span>
@@ -772,7 +793,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-下载-Node-js"><span class="toc-number">1.</span> <span class="toc-text">1. 下载 Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-安装-Git"><span class="toc-number">2.</span> <span class="toc-text">2. 安装 Git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-安装-Hexo"><span class="toc-number">3.</span> <span class="toc-text">3. 安装 Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-部署到-GitHub-服务器"><span class="toc-number">4.</span> <span class="toc-text">4. 部署到 GitHub 服务器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-使用-Git-分支保存-Hexo-博客源码到-GitHub"><span class="toc-number">5.</span> <span class="toc-text">5. 使用 Git 分支保存 Hexo 博客源码到 GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-配置-yilia-主题"><span class="toc-number">6.</span> <span class="toc-text">6. 配置 yilia 主题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#6-1-设置权限"><span class="toc-number">6.1.</span> <span class="toc-text">6.1 设置权限</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-2-GitHub-免密"><span class="toc-number">6.2.</span> <span class="toc-text">6.2 GitHub 免密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-3-爬坑细节"><span class="toc-number">6.3.</span> <span class="toc-text">6.3 爬坑细节</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-4-关于图片无法显示的情况解决"><span class="toc-number">6.4.</span> <span class="toc-text">6.4 关于图片无法显示的情况解决</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-5-所有的配置完成后"><span class="toc-number">6.5.</span> <span class="toc-text">6.5 所有的配置完成后</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-6-写博客的步骤总结"><span class="toc-number">6.6.</span> <span class="toc-text">6.6 写博客的步骤总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-yilia-主题优化（持续更新）"><span class="toc-number">7.</span> <span class="toc-text">7. yilia 主题优化（持续更新）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#7-1-显示博客前几行"><span class="toc-number">7.1.</span> <span class="toc-text">7.1 显示博客前几行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-2-自动-front-模板"><span class="toc-number">7.2.</span> <span class="toc-text">7.2 自动 front 模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-3-优化首页链接"><span class="toc-number">7.3.</span> <span class="toc-text">7.3 优化首页链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-4-添加博客置顶功能"><span class="toc-number">7.4.</span> <span class="toc-text">7.4 添加博客置顶功能</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-下载-Node-js"><span class="toc-number">1.</span> <span class="toc-text">1. 下载 Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-安装-Git"><span class="toc-number">2.</span> <span class="toc-text">2. 安装 Git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-安装-Hexo"><span class="toc-number">3.</span> <span class="toc-text">3. 安装 Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-部署到-GitHub-服务器"><span class="toc-number">4.</span> <span class="toc-text">4. 部署到 GitHub 服务器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-使用-Git-分支保存-Hexo-博客源码到-GitHub"><span class="toc-number">5.</span> <span class="toc-text">5. 使用 Git 分支保存 Hexo 博客源码到 GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-配置-yilia-主题"><span class="toc-number">6.</span> <span class="toc-text">6. 配置 yilia 主题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#6-1-设置权限"><span class="toc-number">6.1.</span> <span class="toc-text">6.1 设置权限</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-2-GitHub-免密"><span class="toc-number">6.2.</span> <span class="toc-text">6.2 GitHub 免密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-3-爬坑细节"><span class="toc-number">6.3.</span> <span class="toc-text">6.3 爬坑细节</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-4-关于图片无法显示的情况解决"><span class="toc-number">6.4.</span> <span class="toc-text">6.4 关于图片无法显示的情况解决</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-5-所有的配置完成后"><span class="toc-number">6.5.</span> <span class="toc-text">6.5 所有的配置完成后</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-6-写博客的步骤总结"><span class="toc-number">6.6.</span> <span class="toc-text">6.6 写博客的步骤总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-yilia-主题优化（持续更新）"><span class="toc-number">7.</span> <span class="toc-text">7. yilia 主题优化（持续更新）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#7-1-显示博客前几行"><span class="toc-number">7.1.</span> <span class="toc-text">7.1 显示博客前几行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-2-自动-front-模板"><span class="toc-number">7.2.</span> <span class="toc-text">7.2 自动 front 模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-3-优化首页链接"><span class="toc-number">7.3.</span> <span class="toc-text">7.3 优化首页链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-4-添加博客置顶功能"><span class="toc-number">7.4.</span> <span class="toc-text">7.4 添加博客置顶功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-5-添加打赏二维码"><span class="toc-number">7.5.</span> <span class="toc-text">7.5 添加打赏二维码</span></a></li></ol></li></ol>
                     </div>
                 </span>
             </div>

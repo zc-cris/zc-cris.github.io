@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cris的个人博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zc-cris.github.io/"/>
+  <updated>2019-10-12T05:30:13.477Z</updated>
+  <id>https://zc-cris.github.io/</id>
+  
+  <author>
+    <name>Cris</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test2</title>
+    <link href="https://zc-cris.github.io/archives/13bb8d58.html"/>
+    <id>https://zc-cris.github.io/archives/13bb8d58.html</id>
+    <published>2019-10-12T05:25:16.000Z</published>
+    <updated>2019-10-12T05:30:13.477Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是一篇测试博客"><a href="#这是一篇测试博客" class="headerlink" title="这是一篇测试博客"></a>这是一篇测试博客</h1><h2 id="1-标题一"><a href="#1-标题一" class="headerlink" title="1. 标题一"></a>1. 标题一</h2><h3 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"hello,world"</span>)</span><br></pre></td></tr></table></figure><blockquote><p>这是引言</p></blockquote><p><img src="/archives/13bb8d58/1570858176121.png" alt="1570858176121"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;这是一篇测试博客&quot;&gt;&lt;a href=&quot;#这是一篇测试博客&quot; class=&quot;headerlink&quot; title=&quot;这是一篇测试博客&quot;&gt;&lt;/a&gt;这是一篇测试博客&lt;/h1&gt;&lt;h2 id=&quot;1-标题一&quot;&gt;&lt;a href=&quot;#1-标题一&quot; class=&quot;headerlink
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="https://zc-cris.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="HTML" scheme="https://zc-cris.github.io/categories/%E5%89%8D%E7%AB%AF/HTML/"/>
+    
+    
+      <category term="HTML" scheme="https://zc-cris.github.io/tags/HTML/"/>
+    
+      <category term="前端" scheme="https://zc-cris.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zc-cris.github.io/archives/4a17b156.html"/>
+    <id>https://zc-cris.github.io/archives/4a17b156.html</id>
+    <published>2019-10-07T10:13:29.540Z</published>
+    <updated>2019-10-12T04:58:33.884Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HTML入门笔记</title>
+    <link href="https://zc-cris.github.io/archives/ea82bb07.html"/>
+    <id>https://zc-cris.github.io/archives/ea82bb07.html</id>
+    <published>2018-11-23T13:07:15.000Z</published>
+    <updated>2019-10-12T05:11:29.532Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="hello，你好"><a href="#hello，你好" class="headerlink" title="hello，你好"></a>hello，你好</h3><img src="/archives/ea82bb07/1570857068343.png" alt="1570857068343" style="zoom:50%;"><p>it’s so cool!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;hello，你好&quot;&gt;&lt;a href=&quot;#hello，你好&quot; class=&quot;headerlink&quot; title=&quot;hello，你好&quot;&gt;&lt;/a&gt;hello，你好&lt;/h3&gt;&lt;img src=&quot;/archives/ea82bb07/1570857068343.png&quot; a
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="https://zc-cris.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="HTML" scheme="https://zc-cris.github.io/categories/%E5%89%8D%E7%AB%AF/HTML/"/>
+    
+    
+      <category term="HTML" scheme="https://zc-cris.github.io/tags/HTML/"/>
+    
+      <category term="前端" scheme="https://zc-cris.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>

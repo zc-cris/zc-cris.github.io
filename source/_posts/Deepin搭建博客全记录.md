@@ -633,7 +633,7 @@ cris@cris-pc:~/Documents/blog$ hexo d
 
 <img src="Deepin搭建博客全记录/1570858987511.png" alt="1570858987511" style="zoom:50%;" />
 
-`well done`！^_^
+well done！^_^
 
 
 
@@ -649,15 +649,75 @@ cris@cris-pc:~/Documents/blog$ hexo d
 
 ## 7. yilia 主题优化（持续更新）
 
-### 7.1 博客显示前几行
+### 7.1 显示博客前几行
 
-默认情况下，博客主页的博客会全部显示完，而实际上我们的主页只需要显示每篇博客的前几行即可，在你写 md 文章的时候，可以在内容中加上 `<!--more-->`，这样首页和列表页展示的文章内容就是 `<!--more-->` 之前的文字，而之后的就不会显示了
+默认情况下，博客主页的博客会全部显示完，而实际上我们的主页只需要显示每篇博客的前几行即可，在你写 `md` 文章的时候，可以在内容中加上 `<!--more-->`，这样首页和列表页展示的文章内容就是 `<!--more-->` 之前的文字，而之后的内容就不会在首页显示了
 
-然后进入`theme`目录，打开`yilia`目录下的`_config.yml`文件
+> 进入`theme`目录，打开`yilia`目录下的`_config.yml`文件
+>
+> 将 `excerpt_link：`之后的`more`单词换成空格
+>
 
-将 `excerpt_link：`之后的`more`单词换成空格
+*小技巧：可以在首页显示我们每篇博客的顶部大图*
 
+### 7.2 自动 front 模板
 
+当我们通过 `hexo new 博客名` 的命令创建一篇博客的时候，我们会发现博客前面的 `front` 代码模块是固定的
 
+```yaml
+---
+title: {{ title }}
+date: {{ date }}
+tags:
+---
+```
 
+那么每次写博客，我们还要手动去写分类，写 `tag`，实在太麻烦，其实可以通过修改模板的方式来让 `Hexo` 自动为我们生成想要的 `front` 代码，默认是根据 `scaffolds/post.md` 来生成的，所以我们直接修改这个 `post.md` 文件即可
+
+```yaml
+---
+title: {{ title }}
+date: {{ date }}
+
+copyright: true
+toc: true
+declare: true
+tags:
+ - 
+ - 
+categories:
+ - 技术文
+ - 
+---
+```
+
+然后我们可以新建一篇博客试试
+
+```shell
+hexo new "test"
+```
+
+<img src="Deepin搭建博客全记录/1570870493089.png" alt="1570870493089" style="zoom:50%;" />
+
+本地生成并启动
+
+<img src="Deepin搭建博客全记录/1570870535646.png" alt="1570870535646" style="zoom:50%;" />
+
+并且进入 `test` 博客正文还发现自动生成了版权声明信息，实在是太方便啦(⊙o⊙)
+
+### 7.3 优化首页链接
+
+我们可以在首页的右下角添加自己想要添加的链接或者图片
+
+<img src="Deepin搭建博客全记录/1570872425102.png" alt="1570872425102" style="zoom:67%;" />
+
+添加方式直接修改 `yilia` 目录下的 `_config.yml` 文件即可
+
+<img src="Deepin搭建博客全记录/1570872497627.png" alt="1570872497627" style="zoom:50%;" />
+
+`微信`和 `qq` 图片直接放在 `blog/themes/yilia/source/assets` 目录下即可
+
+然后重新部署启动即可
+
+<img src="Deepin搭建博客全记录/1570872635710.png" alt="1570872635710" style="zoom:50%;" />
 

@@ -10,6 +10,7 @@ tags:
 categories:
   - 技术文
   - 踩坑记录
+top: 2
 abbrlink: 118474ee
 date: 2019-10-11 21:07:15
 ---
@@ -721,3 +722,16 @@ hexo new "test"
 
 <img src="Deepin搭建博客全记录/1570872635710.png" alt="1570872635710" style="zoom:50%;" />
 
+
+
+### 7.4 添加博客置顶功能
+
+[参考博客](https://www.jianshu.com/p/a0afac70afc8)
+
+注意 top 后的数字，越小越会排在首页顶部
+
+改进：我们把 top 这个属性写入默认模板
+
+<img src="Deepin搭建博客全记录/1570874902926.png" alt="1570874902926" style="zoom:67%;" />
+
+默认为1即可，那么我们每次新建的博客都会置顶

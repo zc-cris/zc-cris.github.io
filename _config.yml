@@ -3,20 +3,27 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Cris的个人博客
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Cris
 language: en
 timezone:
 
+# 是否开启字数统计
+#不需要使用，直接设置值为false，或注释掉
+word_count: True
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zc-cris.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+sitemap:
+    path: sitemap.xml
 
 # Directory
 source_dir: source
@@ -81,3 +88,22 @@ deploy:
   type: git
   repo: https://github.com/zc-cris/zc-cris.github.io
   branch: master
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
